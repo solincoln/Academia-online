@@ -1,0 +1,249 @@
+*{
+	font-family:arial;
+}
+#formatacao{
+  margin-top:15px;
+  margin-bottom:10px;
+  line-height:25px;
+  width:100%;
+  max-width:957px;
+}
+body{
+	margin:0px;
+}
+.topo{
+	display:flex;
+	height:70px;
+	background-color:#000;
+	
+}
+.topoInterno{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:100%;
+	max-width:1500px;
+	height:70px;
+	background-color:#000;
+	position:fixed;
+}
+.topoLogo{
+	display:inline-block;
+	width:500px;
+	color:#fff;
+	line-height:65px;
+	font-family:paryrys;
+	
+}
+.topoLogo img{
+	width:65px;	
+	padding-left:30px;
+	padding-right:30px;
+}
+.topoLogo_logo{
+	float:left;
+}
+	
+}
+.topoLogo  .topoLogo_texto{
+font-family:paryrys;
+
+}
+
+.topoMenu{
+	
+	color:#fff;
+	float:right;
+	height:70px;
+}
+.topoMenu ul{
+	list-style:none;
+	margin:0;
+    padding:0;
+}
+.topoMenu li{
+	float:left;
+
+	line-height:70px;
+	font-size:13px;
+	font-weight:5px; 
+	transition:background 0.4s linear;
+	border-radius:0px;
+	cursor:pointer;
+}
+.topoMenu li:hover{
+	background-color:#fff;	
+	font:#ccc;
+}
+
+.topoMenu li img{
+	padding-top:25px;
+	padding-bottom:15px;
+	padding-left: 15px;
+    padding-right: 15px;
+	height:30px;
+	width:30px;
+}
+.topoMenu li a{
+	text-decoration:none;
+}
+.menu_Letra{
+	color:#fff;
+	
+	padding-left:15px;
+	padding-right:15px;
+}
+ 
+.menu_Letra:hover{
+	color:#000;
+}
+.select_home{
+	height:500px;
+
+}
+.conteudo_home{
+	background-color:#fff;
+	display:flex;
+	flex-direction:column;
+}
+
+.conteudo_home_int{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:100%;
+	max-width:1200px;
+	
+	margin:auto;
+	padding-top:20px;
+}
+.conteudo_academia_nossa_academia{
+	display:flex;
+	flex-direction:row;
+}
+.linha{]
+	display:flex;
+	height:2px;
+	width:410px;
+	background-color:#000;
+	align-items:center;
+	margin-top:38px;
+
+}
+
+.conteudo_academia{
+	font-family:GothamBlack,sans-serif;
+	display: flex;
+	justify-content: center;
+	line-height:100%;
+	display:flex;
+	font-size:25px;
+	letter-spacing:4px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.descrição_academia{
+	display:flex;
+	margin:auto;
+	font-size:40px;	
+	padding-top:10px;
+	padding-bottom:20px;
+	width:300px;
+	text-align:center;
+
+}
+.descrição_acadaemia_conteudo{
+	display:flex;
+	text-align:center;
+	flex-direction:column;
+
+	
+}
+
+.gm-err-container{
+	display: flex;
+	flex-direction:column;
+	border-bottom: 4px solid yellow;
+	height: 310px; 
+    width: 640px; 
+    background-color: #ddd;
+    justify-content:center;
+    margin-top:30px;
+    border-radius: 1px;
+}
+.gm-err-icon{
+	justify-content:center;
+	text-align: center;
+}
+.gm-err-icon img{
+
+	}
+
+.gm-err-message-title{
+	display: flex;
+	width:100%;
+	font-size:25px;
+	justify-content: center;
+	color:#6161c6;
+}
+.gm-err-message{
+	display: flex;
+	width:100%;
+	justify-content: center;
+	color:#6161c6;	
+	text-align:center;
+}
+.local{
+	display:flex;
+	text-align:center;
+	justify-content:center;
+}
+.local h2{
+	color: #000;
+    margin: 5px;
+    font-family: GothamBook,sans-serif;
+    width: auto;
+    position: relative;
+    bottom: 22px;
+    background-color:yellow;   
+}
+.contato{
+	display:flex;
+	align-items:left;
+}
+.contato ul{
+	list-style:none;
+}
+@media only screen and (min-width:1000px) and (max-width:1100px) {
+.topoInterno{
+	width:100%;
+	height:80px;
+	background-color:#000;
+	margin:auto;
+	}
+	.topoLogo{
+		width:100%;
+		height:65px;
+		background-color:#000;
+		display:inline-block;
+		
+		text-align:center;
+
+	}
+	.topoLogo_texto{
+		text-align:left;
+		margin:left;
+	}
+	.topoMenu{
+		width:100%;
+		height:65px;
+		background-color:#000;
+		margin:auto;
+	}
+.conteudo_academia{
+	
+}
+}
+
+
